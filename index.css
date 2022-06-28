@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  background-color: rgba(221, 221, 52, 0.659);
+  margin: auto;
+  max-width: 1220px;
+  padding: 15px;
+}
+h1{
+  font-size: 60px;
+  color:rgba(5, 72, 241, 0.632);
+  margin: 3px;
+}
+
+.grupo1{
+  margin-top: 60px;
+  text-align: center;
+}
+.grupo2{
+  margin-top: relative;
+  text-align: center;
+}
+
+#conjunto{
+  display: inline-block;
+  width: 260px;
+  height: 370px;
+  border: none;
+  margin: 15px;
+  border-radius: 20px;
+  padding: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgba(5, 72, 241, 0.632);
+  color: white;
+}
+#status{
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+canvas{
+  background-color:rgb(12, 255, 12);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 3px;
+  position: absolute;
+  margin-top: 1.45px;
+ }
+
+ul{
+  list-style-type: none;
+  margin-top: 10px;  
+}
+li{
+  text-align: left;
+  margin: 2px;
+}
+#obs{
+  font-family: sans-serif;
+  width: 220px;
+  max-width: 220px;
+  min-width: 220px;
+  height: 150px;
+  max-height: 150px;
+  min-height: 150px;
+  text-align: justify;
+  margin-top: 20px;
+  border: none;
+  padding: 9px;
+}
+
+button{
+  width: 70px;
+  height: 25px;
+  margin: auto;
+  border: none;
+  background-color: white;
+  cursor: pointer; 
+  font-weight: bold;
+  border-radius: 3px;
+  transition: filter 0.3;
+}
+
+button:hover{
+  filter:brightness(.9)
+}
